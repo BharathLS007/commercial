@@ -104,8 +104,8 @@ img{
 .nav__icons span{
     font-size: 1.25rem;
     cursor: pointer;
+    padding-left: 30px;
 }
-
 body{
     font-family: "montserrat",sans-serif;
 }
