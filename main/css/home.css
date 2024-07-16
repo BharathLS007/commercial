@@ -112,7 +112,17 @@ body{
     font-family: "montserrat",sans-serif;
 }
 
+/* sale  */
 
+.sale{
+    display: flex;
+}
+
+.sale__content a{
+    color: var(--text-dark);
+    margin-left: 50px;
+
+}
 
 /* Footer CSS */
 
