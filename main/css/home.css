@@ -6,7 +6,7 @@ html{
     --text-dark: black;
     --max-width: 1200px;
     --light:white;
-
+    --button-color:rgba(0,167,142,0.7);
 }
 *{
     padding: 0;
@@ -36,14 +36,22 @@ html{
     width: 75px;
     background-color: var(--text-dark);
 }
-.btn{
-    padding: .75rem 2rem;
-    font-size: .8rem;
-    outline: none;
+.btn
+{
+    background-color: var(--button-color);
+    padding: 15px 40px;
     border: none;
-    cursor: pointer;
-    transition: 0.5s;
-
+    color: var(--white);
+    border-radius: 5px;
+    font-size: 16px;
+    text-transform: capitalize;
+    font-weight: 600;
+    transition: all 0.3s ease-out;
+}
+.btn:hover
+{
+    color: var(--white);
+    background-color:rgba(212,24,143);
 }
 
 a{
