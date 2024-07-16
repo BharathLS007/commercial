@@ -3,9 +3,134 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="css" href="product.css">
+    <title>Wishlist and Recommendations</title>
+    <link rel="stylesheet" href="product.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        .product-card {
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            padding: 15px;
+            text-align: center;
+            position: relative;
+        }
+        .product-card img {
+            max-width: 100%;
+            height: auto;
+            margin-bottom: 20px;
+        }
+        .product-card .price {
+            color: red;
+            font-weight: bold;
+        }
+        .discount-badge {
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            background-color: red;
+            color: white;
+            padding: 5px;
+            border-radius: 50%;
+        }
+        .wishlist-title, .recommendations-title {
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+        .move-to-bag-btn {
+            margin-top: 10px;
+        }
+    </style>
 </head>
 <body>
-    
+
+<div class="container">
+    <!-- Wishlist Section -->
+    <div class="d-flex justify-content-between align-items-center wishlist-title">
+        <h2>Wishlist (4)</h2>
+        <button class="btn btn-primary move-to-bag-btn">Move All To Bag</button>
+    </div>
+    <div class="row">
+        <div class="col-md-3">
+            <div class="product-card">
+                <span class="discount-badge">20%</span>
+                <img src="shopping.webp" alt="Gucci duffle bag">
+                <p>Gucci duffle bag</p>
+                <p class="price">$960</p>
+                <button class="btn btn-dark">Add To Cart</button>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="product-card">
+                <span class="discount-badge">15%</span>
+                <img src="images.jfif" alt="RGB liquid CPU Cooler">
+                <p>RGB liquid CPU Cooler</p>
+                <p class="price">$1960</p>
+                <button class="btn btn-dark">Add To Cart</button>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="product-card">
+                <span class="discount-badge">10%</span>
+                <img src="1.jfif" alt="GPI Shooter USB Gamepad">
+                <p>GPI Shooter USB Gamepad</p>
+                <p class="price">$550</p>
+                <button class="btn btn-dark">Add To Cart</button>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="product-card">
+                <span class="discount-badge">25%</span>
+                <img src="Hcc6ce3fc6d9a4e929be104adda59aa80U.jpg_300x300.avif" alt="Quilted Satin Jacket">
+                <p>Quilted Satin Jacket</p>
+                <p class="price">$750</p>
+                <button class="btn btn-dark">Add To Cart</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Recommendations Section -->
+    <div class="d-flex justify-content-between align-items-center recommendations-title">
+        <h2>Just For You</h2>
+        <button class="btn btn-secondary">See All</button>
+    </div>
+    <div class="row">
+        <div class="col-md-3">
+            <div class="product-card">
+                <span class="discount-badge">25%</span>
+                <img src="2.jfif" alt="ASUS FHD Gaming Laptop">
+                <p>ASUS FHD Gaming Laptop</p>
+                <p class="price">$1800</p>
+                <button class="btn btn-dark">Add To Cart</button>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="product-card">
+                <img src="images (3).jfif" alt="IPS LCD Gaming Monitor">
+                <p>IPS LCD Gaming Monitor</p>
+                <p class="price">$400</p>
+                <button class="btn btn-dark">Add To Cart</button>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="product-card">
+                <img src="images (4).jfif" alt="HAWT HV-G92 Gamepad">
+                <p>HAWT HV-G92 Gamepad</p>
+                <p class="price">$50</p>
+                <button class="btn btn-dark">Add To Cart</button>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="product-card">
+                <img src="image5.jfif" alt="AK-900 Wired Keyboard">
+                <p>AK-900 Wired Keyboard</p>
+                <p class="price">$200</p>
+                <button class="btn btn-dark">Add To Cart</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+
 </body>
 </html>

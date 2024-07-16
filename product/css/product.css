@@ -1,0 +1,25 @@
+body {
+    background-color: #f8f9fa;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    margin-top: 20px;
+}
+
+.wishlist-title, .recommendations-title {
+    margin-bottom: 20px;
+}
+.move-to-bag-btn, .recommendations-title button {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.recommendations-title h2 {
+    margin: 0;
+}
+
+.product-card .btn {
+    width: 100%;
+    font-size: 15px;
+}
