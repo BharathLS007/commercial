@@ -116,14 +116,23 @@ body{
 
 .sale{
     display: flex;
+    margin-left: 150px;
+   
 }
+
+
 
 .sale__content a{
     color: var(--text-dark);
     margin-left: 50px;
+    text-decoration: none;
 
 }
 
+.vertical{
+   border-left: 1px solid black;
+   margin-left: 10px;
+}
 /* Footer CSS */
 
 
