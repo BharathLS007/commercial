@@ -133,6 +133,15 @@ body{
    border-left: 1px solid black;
    margin-left: 10px;
 }
+
+
+/* page 2*/
+
+.page2{
+    display: flex;
+    margin-left: 150px;
+    justify-content: space-between;
+}
 /* Footer CSS */
 
 
