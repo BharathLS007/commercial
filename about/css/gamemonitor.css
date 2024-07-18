@@ -1,0 +1,70 @@
+.hlo{
+    padding-left: 170px;
+    padding-bottom: 80px;
+  }
+  .row{
+      padding-top: 70px;
+      padding-left: 70px;
+  
+  }
+  .col1{
+      padding-right: 10px;
+         
+        }
+        .descriplastation5 img{
+          padding-bottom: 5px;
+        }
+        .zoom1{
+          /* padding: 50px; */
+          transition: transform .2s; 
+          width: 250px;
+          height: 250px;
+          margin: 0 auto;
+        }
+        
+        .zoom1:hover {
+          transform: scale(1.5); 
+        }
+        .zoom2{
+          /* padding: 50px; */
+          transition: transform .1s; 
+          width: 250px;
+          height: 250px;
+          margin: 0 ;
+        }
+        
+        .zoom2:hover {
+          transform: scale(1.5); 
+        }
+        .zoom3{
+          /* padding: 50px; */
+          transition: transform .1s; 
+          width: 250px;
+          height: 250px;
+          margin: 0 ;
+        }
+        
+        .zoom3:hover {
+          transform: scale(1.5); 
+        }
+        .zoom4{
+          /* padding: 50px; */
+          transition: transform .1s; 
+          width: 250px;
+          height: 250px;
+          margin: 0;
+        }
+        
+        .zoom4:hover {
+          transform: scale(1.5); 
+        }
+        .buyplay{
+          padding-top: 22px;
+          padding-left: 10px;
+        
+  
+        }
+        
+  
+  
+  
