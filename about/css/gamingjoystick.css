@@ -1,4 +1,4 @@
-.hlo3{
+.hlo4{
     padding-left: 170px;
     padding-bottom: 80px;
   }
@@ -7,19 +7,19 @@
       padding-left: 70px;
   
   }
-  .col13 img{
+  .col14 img{
       padding-right: 50px;
       padding-bottom: 60px;
          
         }
-        .descriplastation53 img{
+        .descriplastation54 img{
           padding-bottom: 5px;
         }
-        .descriplastation53{
+        .descriplastation54{
             padding-left: 50px;
             padding-top: 43px;
         }
-        .zoom13{
+        .zoom14{
           /* padding: 50px; */
           transition: transform .2s; 
           width: 250px;
@@ -27,10 +27,10 @@
           margin: 0 auto;
         }
         
-        .zoom13:hover {
+        .zoom14:hover {
           transform: scale(1.5); 
         }
-        .zoom23{
+        .zoom24{
           /* padding: 50px; */
           transition: transform .1s; 
           width: 250px;
@@ -38,10 +38,10 @@
           margin: 0 ;
         }
         
-        .zoom23:hover {
+        .zoom24:hover {
           transform: scale(1.5); 
         }
-        .zoom33{
+        .zoom34{
           /* padding: 50px; */
           transition: transform .1s; 
           width: 250px;
@@ -49,10 +49,10 @@
           margin: 0 ;
         }
         
-        .zoom33:hover {
+        .zoom34:hover {
           transform: scale(1.5); 
         }
-        .zoom43{
+        .zoom44{
           /* padding: 50px; */
           transition: transform .1s; 
           width: 250px;
@@ -60,10 +60,10 @@
           margin: 0;
         }
         
-        .zoom43:hover {
+        .zoom44:hover {
           transform: scale(1.5); 
         }
-        .buyplay3{
+        .buyplay4{
           padding-top: 22px;
           padding-left: 10px;
         
