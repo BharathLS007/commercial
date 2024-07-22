@@ -1,0 +1,39 @@
+.home{
+    margin-top: 80px;
+    color: rgb(114, 114, 114);
+    font-family: Arial, Helvetica, sans-serif;
+}
+.notfound{
+    font-size: 115px;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 100px;
+    margin-left: 190px;
+}
+.content{
+    margin-left: 340px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(46, 46, 46);
+    font-size: 17px;
+}
+.button{
+    margin-left: 430px;
+    margin-top: 50px;
+    padding: 10px 20px 10px 20px;
+    border: none;
+    background-color:rgb(212, 66, 85);
+    border-radius: 5px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 100px;
+}
+.a{
+    text-decoration: none;
+}
+html{
+    --primary-color: white;
+    --text-dark: black;
+    --max-width: 1200px;
+    --light:white;
+
+}

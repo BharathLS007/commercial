@@ -1,0 +1,48 @@
+.ourStory{
+    padding-top: 100px;
+    padding-left: 60px;
+}
+.ourImage{
+    padding-left: 68px;
+}
+.container{
+    padding-top: 110px;
+    padding-bottom: 120px;
+}
+.store{
+    padding-right: 50px;
+}
+.dollar{
+    padding-right: 50px;
+}
+.storemoney{
+    padding-right: 50px;
+}
+.storebag{
+    padding-right: 50px;
+}
+.card:hover{
+    background-color: rgb(168, 51, 168);
+}
+.storepng{
+    padding-bottom: 120px;
+}
+.sociallogos img{
+    padding-right: 15px;
+}
+.maincharacters{
+    justify-content: center;
+    padding-bottom: 120px;
+}
+.tomcruise,.emmawatson,.willsmith{
+    padding-right: 60px;
+    
+}
+.storedelivery,.custservice,.guarantee{
+    padding-right: 110px;
+    padding-bottom: 110px;
+
+}
+.storedelivery img,.custservice img,.guarantee img{
+    padding-bottom: 20px;
+}

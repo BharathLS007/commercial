@@ -1,0 +1,44 @@
+
+.rowpic img{
+    width: 200px;height: 200px;
+    max-width: 50%;
+
+}
+.rowpic{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    justify-content: space-around;
+}
+.card-title{
+  
+text-decoration: none;
+}
+.style{
+    text-decoration: none;
+    color:black;
+    text-align: center;
+}
+.font{
+    background-color: rgb(223, 221, 221);
+    height: 190px;
+    padding-bottom: 20px;
+  padding-top: 30px;
+}
+.button{
+    background-color: red;
+    color:white;
+    margin-left: 110px;
+    border: none;
+}
+.display{
+padding-top: 10px;
+    padding-bottom: 40px;
+
+}
+.row{
+    margin-bottom: 40px;
+}
+.card{
+    height: 90px;
+}
+

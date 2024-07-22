@@ -1,0 +1,40 @@
+img{
+    float: left;
+}
+
+.buttonblock{
+    border-radius: 4px;
+    height: 40px;
+    width: 350px;
+    background: rgb(240, 18, 18);
+    color: white;
+    border-style: none;
+}
+.block button{
+    padding-top: 2px;
+    border-radius: 2px;
+    height: 40px;
+    width: 350px;
+    border: 5px;
+    border-style: 1px solid gray;
+    background: white;
+    border: 1px solid grey;
+    padding-left: -20px;
+}
+.create{
+    padding: 7%;
+}
+.container .log{
+    padding-top: 2%;
+    text-align: center;
+}
+input{
+    border-left: 0px;
+    border-top: 0px;
+    border-right: 0px;
+    width: 350px;
+    border-bottom: 1px solid gray;
+}
+.block img{
+    padding-left: 50px;
+}

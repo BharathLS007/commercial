@@ -1,0 +1,68 @@
+.total{
+    padding-bottom: 80px;
+  }
+  .row{
+      padding-top: 70px;
+  
+  }
+  .col1{
+      padding-right: 10px;
+         
+        }
+        .price img{
+          padding-bottom: 5px;
+        }
+        .zoom1{
+            padding-left: 40px;
+          transition: transform .2s; 
+          width: 250px;
+          height: 200px;
+          margin: 0 auto;
+        }
+        
+        .zoom1:hover {
+          transform: scale(1.5); 
+        }
+        .zoom2{
+            padding-left: 70px;
+          transition: transform .1s; 
+          width: 270px;
+          height: 200px;
+          margin: 0 ;
+        }
+        
+        .zoom2:hover {
+          transform: scale(1.5); 
+        }
+        .zoom3{padding-left: 70px;
+          transition: transform .1s; 
+          width: 250px;
+          height: 200px;
+          margin: 0 ;
+        }
+        
+        .zoom3:hover {
+          transform: scale(1.5); 
+        }
+        .zoom4{padding-left: 70px;
+          transition: transform .1s; 
+          width: 250px;
+          height: 200px;
+          margin: 0;
+        }
+        
+        .zoom4:hover {
+          transform: scale(1.5); 
+        }
+        .buyplay{
+          padding-top: 22px;
+          padding-left: 10px;
+     }  
+     .col2{
+        padding-top: 70px;
+     }
+     .price{
+        padding-top: 90px;
+        padding-left: 100px;
+     }
+     

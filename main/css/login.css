@@ -1,0 +1,32 @@
+img{
+    float: left;
+}
+.buttonblock{
+    border-radius: 4px;
+    height: 35px;
+    width: 90px;
+    background: rgb(240, 18, 18);
+    color: white;
+    border-style: none;    
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.create
+{
+    padding-top: 12%;
+}
+.log p
+{
+    color: red;
+    padding-left: 25%;
+}
+.log{
+    display: flex;
+}
+input{
+    padding-top: 1%;
+    border-left: 0px;
+    border-top: 0px;
+    border-right: 0px;
+    width: 350px;
+    border-bottom: 1px solid gray;
+}
