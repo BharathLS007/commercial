@@ -44,7 +44,9 @@ img{
     width: 100%;
     display: block;
 }
-
+h3{
+    color: var(--light);
+}
 .header__bar{
     padding: .5rem;
     font-size: .8rem;
@@ -107,26 +109,29 @@ body{
 
 .sale{
     display: flex;
-    margin-left: 150px;
-   
+    margin-left: 100px;
 }
-
-
-
+.sale__content li{
+   list-style: none;
+}
 .sale__content a{
     color: var(--text-dark);
     margin-left: 50px;
-    text-decoration: none;
-
 }
 
 .vertical{
    border-left: 1px solid black;
-   margin-left: 10px;
+   margin-left: 60px;
 }
 
 
+
 /* page 2*/
+h2{
+    margin-left: 100px;
+}
+
+
 .box-container {
     display: flex;
     overflow-x: auto;
@@ -149,6 +154,7 @@ body{
 .box.active {
     border-color: red;
 }
+
 /* Footer CSS */
 .footer {
     background-color: #000;
@@ -208,9 +214,9 @@ body{
 
 .subscribe-form button {
     padding: 5px 10px;
-    background-color: #fff;
+    background-color: var(--light);
     border: none;
-    color: #000;
+    color:var(--text-dark);
     cursor: pointer;
 }
 
@@ -219,10 +225,11 @@ body{
     padding: 10px 0;
     border-top: 1px solid #333;
     margin-top: 20px;
+    color:var(--light);
 }
 
 .app-links img, .social-links img {
-    width: 30px;
+    width: 50px;
     margin-right: 10px;
 }
 
@@ -233,7 +240,7 @@ body{
 }
 
   .footer__col p:hover {
-    color: var(--text-dark);
+    color:  var(--light);
   }
   
   .footer__col p i {
