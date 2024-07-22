@@ -52,7 +52,7 @@ h3{
     font-size: .8rem;
     text-align: center;
     background-color: var(--text-dark);
-    color: var(White);
+    color: var(--light);
 
 }
 
