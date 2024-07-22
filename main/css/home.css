@@ -150,44 +150,88 @@ body{
     border-color: red;
 }
 /* Footer CSS */
+.footer {
+    background-color: #000;
+    padding: 20px 0;
+   
+}
 
+.container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
 
-.footer__container {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 2rem;
-    background-color: var(--text-dark);
-    color: var(--light);
-  }
-  
-  .footer__heading {
-    color: var(--text-light);
-    font-size: 1rem;
-    font-weight: 600;
-    padding-bottom: 1rem;
-    margin-bottom: 2rem;
-    position: relative;
-  }
-  
-  .footer__heading::after {
-    content: "";
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    height: 2px;
-    width: 50px;
-    background-color: var(--text-light);
-  }
-  
-  .footer__col p {
-    font-size: 0.9rem;
-    font-weight: 500;
-    margin-bottom: 1rem;
-    color: var(--text-light);
+.footer-section {
+    flex: 1;
+    margin: 0 10px;
+}
+
+.footer-section h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.footer-section p  {
+    color: #fff;
+    font-size: 14px;
+    margin-bottom: 5px;
+    text-decoration: none;
+    list-style: none;
+}
+.footer-section a {
+    color: #fff;
+    font-size: 14px;
+    margin-bottom: 5px;
+    text-decoration: none;
+    list-style: none;
+}
+
+.footer-section a:hover {
+    text-decoration: underline;
+}
+
+.subscribe-form {
+    display: flex;
+    margin-top: 10px;
+}
+
+.subscribe-form input {
+    padding: 5px;
+    flex: 1;
+    border: none;
+    outline: none;
+    font-size: 14px;
+}
+
+.subscribe-form button {
+    padding: 5px 10px;
+    background-color: #fff;
+    border: none;
+    color: #000;
     cursor: pointer;
-    transition: 0.3s;
-  }
-  
+}
+
+.footer-bottom {
+    text-align: center;
+    padding: 10px 0;
+    border-top: 1px solid #333;
+    margin-top: 20px;
+}
+
+.app-links img, .social-links img {
+    width: 30px;
+    margin-right: 10px;
+}
+
+.social-links {
+    display: flex;
+    margin-top: 10px;
+    justify-content: space-between;
+}
+
   .footer__col p:hover {
     color: var(--text-dark);
   }
@@ -211,7 +255,6 @@ body{
     gap: 2rem;
   }
   
-  .copyright {
-text-align: center;
-  }
-
+.copyright{
+    text-align: center;
+}
