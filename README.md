@@ -135,10 +135,177 @@ a{
     
     <!----------Nav bar starts ends here -->
 
+    <footer class="footer">
+      <div class="container">
+          <div class="footer-section">
+              <h3>Exclusive</h3>
+              <p>Subscribe</p>
+              <p>Get 10% off your first order</p>
+              <form action="#" class="subscribe-form">
+                  <input type="email" placeholder="Enter your email">
+                  <button type="submit">&gt;</button>
+              </form>
+          </div>
+          <div class="footer-section">
+              <h3>Support</h3>
+              <p>111 Bijoy sarani, Dhaka, DH 1515, Bangladesh.</p>
+              <p><a href="mailto:exclusive@gmail.com">exclusive@gmail.com</a></p>
+              <p>+88015-88888-9999</p>
+          </div>
+          <div class="footer-section">
+              <h3>Account</h3>
+              <ul>
+                  <li><a href="#">My Account</a></li>
+                  <li><a href="#">Login / Register</a></li>
+                  <li><a href="#">Cart</a></li>
+                  <li><a href="#">Wishlist</a></li>
+                  <li><a href="#">Shop</a></li>
+              </ul>
+          </div>
+          <div class="footer-section">
+              <h3>Quick Link</h3>
+              <ul>
+                  <li><a href="#">Privacy Policy</a></li>
+                  <li><a href="#">Terms Of Use</a></li>
+                  <li><a href="#">FAQ</a></li>
+                  <li><a href="#">Contact</a></li>
+              </ul>
+          </div>
+          <div class="footer-section">
+              <h3>Download App</h3>
+              <p>Save $3 with App New User Only</p>
+              <div class="app-links">
+                  <a href="#"><img src="./img/qr.png" alt="Google Play"></a>
+              </div>
+              <div class="social-links">
+                  <a href="#"><i class='bx bxl-facebook'></i></a>
+                  <a href="#"><i class='bx bxl-twitter' ></i></a>
+                  <a href="#"><i class='bx bxl-instagram' ></i></a>
+                  <a href="#"><i class='bx bxl-linkedin' ></i></a>
+              </div>
+          </div>
+      </div>
+      <div class="footer-bottom">
+          <p>&copy; Copyright @ 2024. All rights reserved</p>
+      </div>
+  </footer>
+
+
+//////////////////////////////////////
 
 
 
 
+/* Footer CSS */
+.footer {
+    background-color: #000;
+    padding: 20px 0;
+   
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.footer-section {
+    flex: 1;
+    margin: 0 10px;
+}
+
+.footer-section h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.footer-section p  {
+    color: #fff;
+    font-size: 14px;
+    margin-bottom: 5px;
+    text-decoration: none;
+    list-style: none;
+}
+.footer-section a {
+    color: #fff;
+    font-size: 14px;
+    margin-bottom: 5px;
+    text-decoration: none;
+    list-style: none;
+}
+
+.footer-section a:hover {
+    text-decoration: underline;
+}
+
+.subscribe-form {
+    display: flex;
+    margin-top: 10px;
+}
+
+.subscribe-form input {
+    padding: 5px;
+    flex: 1;
+    border: none;
+    outline: none;
+    font-size: 14px;
+}
+
+.subscribe-form button {
+    padding: 5px 10px;
+    background-color: var(--light);
+    border: none;
+    color:var(--text-dark);
+    cursor: pointer;
+}
+
+.footer-bottom {
+    text-align: center;
+    padding: 10px 0;
+    border-top: 1px solid #333;
+    margin-top: 20px;
+    color:var(--light);
+}
+
+.app-links img, .social-links img {
+    width: 50px;
+    margin-right: 10px;
+}
+
+.social-links {
+    display: flex;
+    margin-top: 10px;
+    justify-content: space-between;
+}
+
+  .footer__col p:hover {
+    color:  var(--light);
+  }
+  
+  .footer__col p i {
+    font-size: 1rem;
+    margin-right: 0.5rem;
+  }
+  
+  .instagram__grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1rem;
+  }
+  
+  .footer__bar {
+    padding: 2rem 1rem;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    gap: 2rem;
+  }
+  
+.copyright{
+    text-align: center;
+}
 
 
 
