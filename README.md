@@ -195,7 +195,6 @@ a{
 
 
 
-
 /* Footer CSS */
 .footer {
     background-color: #000;
@@ -214,13 +213,18 @@ a{
 .footer-section {
     flex: 1;
     margin: 0 10px;
+    color: #fff;
 }
 
 .footer-section h3 {
     font-size: 18px;
     margin-bottom: 10px;
+    color: white;
 }
 
+ul{
+    list-style: none;
+}
 .footer-section p  {
     color: #fff;
     font-size: 14px;
@@ -306,7 +310,4 @@ a{
 .copyright{
     text-align: center;
 }
-
-
-
 
