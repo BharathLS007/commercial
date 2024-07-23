@@ -25,9 +25,9 @@ text-decoration: none;
   padding-top: 30px;
 }
 .button{
-    background-color: red;
+    background-color:rgba(242,24,211);
     color:white;
-    margin-left: 110px;
+    margin-left: 150px;
     border: none;
 }
 .display{
